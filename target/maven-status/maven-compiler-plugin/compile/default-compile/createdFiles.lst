@@ -1,0 +1,11 @@
+fr\cnp\sec\pojo\User.class
+fr\cnp\sec\step\UserReader.class
+fr\cnp\sec\config\Const$1.class
+fr\cnp\sec\config\Const.class
+fr\cnp\sec\pojo\LdifBase.class
+fr\cnp\sec\config\BatchConfiguration.class
+fr\cnp\sec\App.class
+fr\cnp\sec\step\LdifReader.class
+fr\cnp\sec\pojo\ArgRegex.class
+fr\cnp\sec\UserJob.class
+fr\cnp\sec\step\UserWriter.class

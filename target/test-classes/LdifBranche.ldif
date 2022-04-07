@@ -1,0 +1,10 @@
+dn: uid=UTI-NUM-${COMPTEUR_NNNN},ou=personnes,uid=SOCIETE-TEST,ou=utilisateurs,o=cnp
+uid: UTI-NUM-${COMPTEUR_NNNN}
+objectClass: top
+objectClass: person
+cn: TEST
+date-creation: ${DATETIME_NOW}
+date-derniere-modification: ${DATETIME_NOW}
+sn: Pfae
+givenName: TEST CHARGE NAVEO
+

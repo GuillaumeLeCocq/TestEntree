@@ -1,0 +1,36 @@
+#User N°0000
+dn: uid=UTI-NUM-0000,ou=personnes,uid=SOCIETE-TEST,ou=utilisateurs,o=cnp
+uid: UTI-NUM-0000
+objectClass: top
+objectClass: person
+cn: TEST
+date-creation: 2022-04-07T15:34:16Z
+date-derniere-modification: 2022-04-07T15:34:16Z
+sn: Pfae
+givenName: TEST CHARGE NAVEO
+
+
+#User N°0001
+dn: uid=UTI-NUM-0001,ou=personnes,uid=SOCIETE-TEST,ou=utilisateurs,o=cnp
+uid: UTI-NUM-0001
+objectClass: top
+objectClass: person
+cn: TEST
+date-creation: 2022-04-07T15:34:16Z
+date-derniere-modification: 2022-04-07T15:34:16Z
+sn: Pfae
+givenName: TEST CHARGE NAVEO
+
+
+#User N°0002
+dn: uid=UTI-NUM-0002,ou=personnes,uid=SOCIETE-TEST,ou=utilisateurs,o=cnp
+uid: UTI-NUM-0002
+objectClass: top
+objectClass: person
+cn: TEST
+date-creation: 2022-04-07T15:34:16Z
+date-derniere-modification: 2022-04-07T15:34:16Z
+sn: Pfae
+givenName: TEST CHARGE NAVEO
+
+
