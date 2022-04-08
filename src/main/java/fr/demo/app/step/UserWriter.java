@@ -1,4 +1,4 @@
-package fr.cnp.sec.step;
+package fr.demo.app.step;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -14,7 +14,7 @@ import org.springframework.batch.core.StepExecutionListener;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.beans.factory.InitializingBean;
 
-import fr.cnp.sec.pojo.User;
+import fr.demo.app.pojo.User;
 
 public class UserWriter implements StepExecutionListener, ItemWriter<User>, InitializingBean {
 

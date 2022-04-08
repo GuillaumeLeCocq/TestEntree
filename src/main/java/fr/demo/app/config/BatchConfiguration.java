@@ -1,4 +1,4 @@
-package fr.cnp.sec.config;
+package fr.demo.app.config;
 
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;

@@ -1,4 +1,4 @@
-package fr.cnp.sec.pojo;
+package fr.demo.app.pojo;
 
 public class ArgRegex {
 

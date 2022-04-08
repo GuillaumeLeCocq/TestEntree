@@ -1,4 +1,4 @@
-package fr.cnp.sec;
+package fr.demo.app;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
@@ -9,10 +9,10 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Scope;
 
-import fr.cnp.sec.pojo.User;
-import fr.cnp.sec.step.LdifReader;
-import fr.cnp.sec.step.UserReader;
-import fr.cnp.sec.step.UserWriter;
+import fr.demo.app.pojo.User;
+import fr.demo.app.step.LdifReader;
+import fr.demo.app.step.UserReader;
+import fr.demo.app.step.UserWriter;
 
 public class UserJob {
 	    

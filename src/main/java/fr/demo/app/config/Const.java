@@ -1,4 +1,4 @@
-package fr.cnp.sec.config;
+package fr.demo.app.config;
 
 import java.util.ArrayList;
 import java.util.Collections;

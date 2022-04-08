@@ -4,7 +4,7 @@ import java.io.File;
 
 import org.springframework.batch.core.BatchStatus;
 
-import fr.cnp.sec.App;
+import fr.demo.app.App;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -44,6 +44,10 @@ public class AppTest extends TestCase {
 
 		File f = new File(fileOut);
 		f.delete();
+		
+		System.out.println(" fileIn " + fileIn );
+		System.out.println(" fileOut " + fileOut );
+		System.out.println(" Amount " + 3 );
 
 		App.main(args);
 

@@ -1,4 +1,4 @@
-package fr.cnp.sec.step;
+package fr.demo.app.step;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -18,9 +18,9 @@ import org.springframework.batch.item.UnexpectedInputException;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import fr.cnp.sec.config.Const;
-import fr.cnp.sec.pojo.LdifBase;
-import fr.cnp.sec.pojo.User;
+import fr.demo.app.config.Const;
+import fr.demo.app.pojo.LdifBase;
+import fr.demo.app.pojo.User;
 
 public class UserReader implements StepExecutionListener, ItemReader<User>, InitializingBean {
 
@@ -61,13 +61,13 @@ public class UserReader implements StepExecutionListener, ItemReader<User>, Init
 
 		if (cpt < amount) {
 			
-			LOG.debug("read UserReader NÂ°" + cpt);
+			LOG.debug("read UserReader N°" + cpt);
 
 			String cptInSTR = String.format("%04d", cpt);
 			User u = new User();
 
 			u.setNumber(cpt);
-			u.setHeader("User NÂ°" + cptInSTR);
+			u.setHeader("User N°" + cptInSTR);
 
 			u.setLines(new ArrayList<String>());
 			u.getLines().addAll(ldif.getLines());

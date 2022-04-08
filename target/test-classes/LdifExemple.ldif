@@ -3,10 +3,8 @@ uid: UTI-NUM-${COMPTEUR_NNNN}
 objectClass: top
 objectClass: person
 cn: TEST
-date-creation: ${DATETIME_YESTERDAY} <= 2022-04-06T15:34:16Z
-date-derniere-modification: ${DATETIME_NOW} <= 2022-04-07T15:34:16Z
+date-creation: ${DATETIME_NOW}
+date-derniere-modification: ${DATETIME_NOW}
 sn: Pfae
 givenName: TEST CHARGE NAVEO
 
-
-# Créer un nouveau token appelé ${DATETIME_YESTERDAY} qui va permettre d'avoir la date d'hier et la mettre dans Date-Création

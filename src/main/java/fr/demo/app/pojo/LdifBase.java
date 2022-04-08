@@ -1,4 +1,4 @@
-package fr.cnp.sec.pojo;
+package fr.demo.app.pojo;
 
 import java.io.Serializable;
 import java.util.ArrayList;

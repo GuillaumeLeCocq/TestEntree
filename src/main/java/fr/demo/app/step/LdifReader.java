@@ -1,4 +1,4 @@
-package fr.cnp.sec.step;
+package fr.demo.app.step;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -18,8 +18,8 @@ import org.springframework.batch.core.scope.context.ChunkContext;
 import org.springframework.batch.core.step.tasklet.Tasklet;
 import org.springframework.batch.repeat.RepeatStatus;
 
-import fr.cnp.sec.config.Const;
-import fr.cnp.sec.pojo.LdifBase;
+import fr.demo.app.config.Const;
+import fr.demo.app.pojo.LdifBase;
 
 public class LdifReader implements Tasklet, StepExecutionListener {
 

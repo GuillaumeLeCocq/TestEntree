@@ -1,4 +1,4 @@
-package fr.cnp.sec;
+package fr.demo.app;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,8 +8,8 @@ import org.springframework.batch.core.JobParametersBuilder;
 import org.springframework.batch.core.launch.JobLauncher;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import fr.cnp.sec.config.BatchConfiguration;
-import fr.cnp.sec.config.Const;
+import fr.demo.app.config.BatchConfiguration;
+import fr.demo.app.config.Const;
 
 public class App {
 
