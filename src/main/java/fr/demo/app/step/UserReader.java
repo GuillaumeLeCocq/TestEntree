@@ -33,8 +33,7 @@ public class UserReader implements StepExecutionListener, ItemReader<User>, Init
 	private long amount;
 
 	private SimpleDateFormat sdf;
-	private String now;
-	private String yesterday;	
+	private String now;	
 	
 	@Override
 	public void beforeStep(StepExecution stepExecution) {
@@ -46,7 +45,6 @@ public class UserReader implements StepExecutionListener, ItemReader<User>, Init
 	
 		sdf = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
 		now = sdf.format(new Date());
-		yesterday = sdf.format(DateUtils.addDays(new Date(), -1));
 		
 		
 	}
