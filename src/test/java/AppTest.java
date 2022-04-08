@@ -1,5 +1,3 @@
-package org.sec.create.user;
-
 import java.io.File;
 
 import org.springframework.batch.core.BatchStatus;
