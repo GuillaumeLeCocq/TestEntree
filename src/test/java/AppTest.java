@@ -11,18 +11,10 @@ import junit.framework.TestSuite;
  * Unit test for simple App.
  */
 public class AppTest extends TestCase {
-	/**
-	 * Create the test case
-	 *
-	 * @param testName name of the test case
-	 */
+	
 	public AppTest(String testName) {
 		super(testName);
 	}
-
-	/**
-	 * @return the suite of tests being tested
-	 */
 	public static Test suite() {
 		return new TestSuite(AppTest.class);
 	}
@@ -32,7 +24,6 @@ public class AppTest extends TestCase {
 	 */
 	public void testApp() {
 		
-		//* Example of Test but won't work on junit 
 		
 		String fileIn = "C:\\Users\\Guigui\\Documents\\Code\\TestEntree\\src\\test\\resources\\LdifExemple.ldif";
 		String fileOut = "C:\\Users\\Guigui\\Documents\\Code\\TestEntree\\src\\test\\resources\\LdifExempleOUT.ldif";
@@ -42,16 +33,17 @@ public class AppTest extends TestCase {
 
 		File f = new File(fileOut);
 		f.delete();
-		
-		System.out.println(" fileIn " + fileIn );
-		System.out.println(" fileOut " + fileOut );
-		System.out.println(" Amount " + 3 );
+
+		System.out.println(" args are : "  );
+		System.out.println(" fileIn " + args[0] );
+		System.out.println(" fileOut " + args[1] );
+		System.out.println(" Amount " + args[2] );
 
 		App.main(args);
 
 		System.out.println("Job " + App.getJob().getName() + " Done with status " + App.getJobExecution().getStatus());
 
-		assertEquals("Job didn't Go well :(", App.getJobExecution().getStatus(), BatchStatus.COMPLETED);
+		assertEquals("Job didn't Go well :(", BatchStatus.COMPLETED, App.getJobExecution().getStatus());
 		
 	}
 }
