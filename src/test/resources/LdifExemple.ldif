@@ -6,5 +6,5 @@ cn: TEST
 date-creation: ${DATETIME_NOW}
 date-derniere-modification: ${DATETIME_NOW}
 sn: Pfae
-givenName: TEST CHARGE NAVEO
+givenName: TEST CHARGE
 
